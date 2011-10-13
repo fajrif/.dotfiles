@@ -5,19 +5,19 @@ Installation
 Where possible, Vim plugins are installed as git submodules. Check these out by
 running the commands:
 
-    cd dotfiles
+    cd .dotfiles
     git submodule init
     git submodule update
 
 Create symlinks:
 
-    ln -s ~/dotfiles/bashrc ~/.bashrc
-    ln -s ~/dotfiles/vimrc ~/.vimrc
-    ln -s ~/dotfiles/gvimrc ~/.gvimrc
-    ln -s ~/dotfiles/irbrc ~/.irbrc
-    ln -s ~/dotfiles/vim ~/.vim
-    ln -s ~/dotfiles/ctags ~/.ctags
-    ln -s ~/dotfiles/jshintrc ~/.jshintrc
+    ln -s ~/.dotfiles/bashrc ~/.bashrc
+    ln -s ~/.dotfiles/vimrc ~/.vimrc
+    ln -s ~/.dotfiles/gvimrc ~/.gvimrc
+    ln -s ~/.dotfiles/irbrc ~/.irbrc
+    ln -s ~/.dotfiles/vim ~/.vim
+    ln -s ~/.dotfiles/ctags ~/.ctags
+    ln -s ~/.dotfiles/jshintrc ~/.jshintrc
 
 I put Vim's backup and swap files in `~/tmp`, so that directory must exist. To
 be sure, run: 
@@ -27,8 +27,8 @@ be sure, run:
 VIM
 ===
 
-My preferences for Vim are stored in `dotfiles/vimrc` and `dotfiles/gvimrc`
-respectively. All plugins and scripts are stored in the `dotfiles/vim`
+My preferences for Vim are stored in `.dotfiles/vimrc` and `.dotfiles/gvimrc`
+respectively. All plugins and scripts are stored in the `.dotfiles/vim`
 directory.
 
 Adding Plugin Bundles
@@ -37,7 +37,7 @@ Adding Plugin Bundles
 Plugins that are published on github can be installed as submodules. For
 example, to install the [JavaScript bundle][jsbun], follow these steps:
 
-    cd ~/dotfiles
+    cd ~/.dotfiles
     git submodule add http://github.com/pangloss/vim-javascript.git vim/bundle/vim-javascript
 
 This will update the `.gitmodules` file by appending something like:
