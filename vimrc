@@ -110,7 +110,7 @@ endif
 " Preferences {{{1
 set visualbell t_vb=
 set number
-set cursorline
+" set cursorline
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
@@ -450,7 +450,7 @@ let g:space_no_search = 1
 
 " Solarized {{{2
 let g:solarized_menu=0
-set background=light
+set background=dark
 colorscheme solarized
 call togglebg#map("<F5>")
 " EasyMotion {{{2

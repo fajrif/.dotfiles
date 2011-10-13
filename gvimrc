@@ -4,8 +4,8 @@ set bg=dark
 "if &background == "dark"
     "hi normal guibg=black
 "endif
-set guifont=LetterGothicMono:h18
-colorscheme solarized
+set guifont=LetterGothicMono:h22
+colorscheme railscasts
 
 if exists('*HexHighlight()')
   " http://www.vim.org/scripts/script.php?script_id=2937
